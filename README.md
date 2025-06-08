@@ -1,10 +1,6 @@
 # Financing Request Portal
 
-A modern React-based web portal that enables representatives worldwide to submit financing requests with advanced validation, internationalization, and responsive design.
-
-## 🚀 Project Overview
-
-This application serves as a global financing request portal where representatives can submit detailed funding requests with the following key features:
+A modern React-based web portal that enables representatives worldwide to submit financing requests.
 
 ### Core Features
 
@@ -78,6 +74,7 @@ npm run preview
 ## 📁 Project Structure
 
 ```
+public/
 src/
 ├── components/                     # Reusable UI components
 ├── config/                         # Application constants & config
@@ -99,8 +96,9 @@ src/
 
 ## Possibile improvements
 
-- Add Testing with Jest, Playwright
+- Show list of submitted requests
 - Possibly split form into two stages
+- Add Testing with Jest, Playwright
 - Configure auto deployment with preview branches
 
 ## Feedback
