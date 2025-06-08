@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary: 8 86% 55%;
+    --secondary: 230 30% 23%;
+  }
+
+  .dark {
+    --primary: 8 86% 65%;
+    --secondary: 230 30% 23%;
+  }
+}
+
+@layer components {
+  .bg-pattern {
+    @apply bg-[url(/images/dark-bg.jpg)] bg-cover bg-center;
+  }
+}
